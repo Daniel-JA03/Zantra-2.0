@@ -69,7 +69,7 @@ lanHeader.addEventListener("mouseleave", () => {
 
 function cambiarIdioma(idioma) {
     if (idioma === 'es') {
-        window.location.href = '/paginas/index.html'; 
+        window.location.href = '/index.html'; 
     } else if (idioma === 'en') {
         window.location.href = '/paginas/ingles/pa_ingles.html'; 
     }
