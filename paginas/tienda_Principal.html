@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="/css/tiendaPrin.css">
+    <!-- icono buscador -->
+    <script src="https://kit.fontawesome.com/2f754fe3e7.js" crossorigin="anonymous"></script> 
+
+    <!-- google fonts link for icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
+</head>
+
+<body>
+    <header id="landing-header">
+        <a href="../paginas/index.html" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500.000000 500.000000">
+                <g transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)" fill="currentColor"
+                    stroke="none">
+                    <path d="M3320 3155 l0 -45 373 -2 372 -3 3 -377 2 -378 44 0 44 0 4 413 c2
+                226 2 418 0 425 -3 9 -97 12 -423 12 l-419 0 0 -45z" />
+                    <path d="M1080 2730 l0 -50 90 0 c50 0 90 -1 90 -3 0 -2 -22 -58 -49 -126
+                l-50 -122 57 3 56 3 68 165 c37 91 67 168 68 173 0 4 -74 7 -165 7 l-165 0 0
+                -50z" />
+                    <path d="M1622 2518 c-56 -145 -104 -271 -108 -280 -5 -16 1 -18 48 -18 l54 0
+                53 156 c30 85 57 151 61 147 4 -4 28 -69 55 -143 26 -74 50 -141 52 -147 7
+                -17 103 -18 103 -1 0 14 -200 530 -209 541 -4 4 -53 -111 -109 -255z" />
+                    <path d="M2050 2571 l0 -211 50 0 49 0 3 117 3 117 130 -187 129 -187 53 0 53
+                0 0 281 0 280 -52 -3 -53 -3 -5 -179 -5 -179 -125 179 -126 179 -52 3 -52 3 0
+                -210z" />
+                    <path d="M2620 2735 l0 -45 165 0 165 0 0 45 0 45 -165 0 -165 0 0 -45z" />
+                    <path d="M3050 2732 l0 -50 121 -4 c133 -3 149 -11 149 -69 0 -48 -30 -59
+                -157 -59 l-113 0 0 -165 0 -165 50 0 49 0 3 113 3 112 30 3 c30 3 32 0 84
+                -113 l54 -115 53 0 c30 0 54 2 54 5 0 2 -22 53 -50 113 -27 60 -50 113 -50
+                118 0 5 14 18 30 27 41 25 63 71 62 134 0 67 -24 109 -77 137 -33 17 -62 22
+                -167 25 l-128 3 0 -50z" />
+                    <path d="M3642 2518 c-56 -145 -104 -271 -108 -280 -5 -16 1 -18 48 -18 l54 0
+                53 156 c30 85 57 151 61 147 4 -4 28 -69 55 -143 26 -74 50 -141 52 -147 7
+                -17 103 -18 103 -1 0 14 -200 530 -209 541 -4 4 -53 -111 -109 -255z" />
+                    <path d="M838 2238 c-2 -227 -2 -419 0 -425 3 -10 97 -13 423 -13 l419 0 0 45
+                0 45 -372 2 -373 3 -3 378 -2 377 -44 0 -44 0 -4 -412z" />
+                    <path d="M2735 2568 c-3 -8 -4 -88 -3 -178 l3 -165 53 -3 52 -3 -2 178 -3 178
+                -48 3 c-32 2 -49 -1 -52 -10z" />
+                    <path d="M1100 2274 c-11 -25 -20 -48 -20 -50 0 -2 74 -4 165 -4 l165 0 0 50
+                0 50 -145 0 -146 0 -19 -46z" />
+                </g>
+            </svg>
+        </a>
+
+        <nav class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+
+                <li class="dropdown__item">
+                    <a href="../paginas/cargadores.html" class="nav__link">Cargadores</a>
+                </li>
+
+                <li class="dropdown__item">
+                    <a href="../paginas/accesorios.html" class="nav__link">Accesorios</a>
+                </li>
+                <li class="dropdown__item">
+                    <a href="../paginas/ropa.html" class="nav__link">Ropa</a>
+                </li>
+
+            </ul>
+        </nav>
+
+        <!-- buscador interno -->
+        <nav class="right">
+            <i class="fa-solid fa-magnifying-glass" id="icon-search"></i>
+        </nav>
+        <div id="contenedo-barra-busqueda">
+            <input type="text" id="inputSearch" placeholder="¿Qué deseas buscar?">
+        </div>
+        <ul id="box-search">
+            <li><a href="../paginas/cargadores.html"><i class="fa-solid fa-magnifying-glass"></i>Cargadores</a></li>
+            <li><a href="../paginas/accesorios.html"><i class="fa-solid fa-magnifying-glass"></i>Accesorios</a></li>
+            <li><a href="../paginas/ropa.html"><i class="fa-solid fa-magnifying-glass"></i>Ropa</a></li>
+        </ul>
+        <div id="cover-ctn-seach"></div>
+        <a id="menuBtn" href="../paginas/index.html">Menu</a>
+    </header>
+
+    <aside>
+        <button class="close">&times;</button>
+        <a href="../paginas/vehiculos.html">Vehiculos</a>
+        <a href="../paginas/cargadores.html">Cargadores</a>
+        <a href="../paginas/servicios.html">Servicios</a>
+        <a href="#">Propietarios</a>
+        <a href="../paginas/tienda_Principal.html">Tienda</a>
+        <a href="#">Soporte</a>
+
+        <div class="ban-aside">
+            <svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-us" viewBox="0 0 640 480"
+                onclick="cambiarIdioma('en')">
+                <path fill="#bd3d44" d="M0 0h640v480H0" />
+                <path stroke="#fff" stroke-width="37"
+                    d="M0 55.3h640M0 129h640M0 203h640M0 277h640M0 351h640M0 425h640" />
+                <path fill="#192f5d" d="M0 0h364.8v258.5H0" />
+                <marker id="us-a" markerHeight="30" markerWidth="30">
+                    <path fill="#fff" d="m14 0 9 27L0 10h28L5 27z" />
+                </marker>
+                <path fill="none" marker-mid="url(#us-a)"
+                    d="m0 0 16 11h61 61 61 61 60L47 37h61 61 60 61L16 63h61 61 61 61 60L47 89h61 61 60 61L16 115h61 61 61 61 60L47 141h61 61 60 61L16 166h61 61 61 61 60L47 192h61 61 60 61L16 218h61 61 61 61 60L0 0" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-pe" viewBox="0 0 640 480"
+                onclick="cambiarIdioma('es')">
+                <path fill="#D91023" d="M0 0h640v480H0z" />
+                <path fill="#fff" d="M213.3 0h213.4v480H213.3z" />
+            </svg>
+        </div>
+
+    </aside>
+
+    <section class="zona1">
+        <span class="span">¡Bienvenidos a nuestra tienda!</span>        
+    </section>
+
+    <!--==== lo mas vendido ====-->
+    <div class="container">
+        <div class="slider-wrapper">
+            <h3>Los más vendidos</h3>
+            <button id="prev-slide" class="slide-button material-symbols-rounded">chevron_left</button>
+            <div class="image-list">
+                <div class="image-container">
+                    <img src="/img/lomasvendido1.avif" alt="img-1" class="image-item">
+                    <h5>Protectores Interiores</h5>
+                </div>
+                <div class="image-container">
+                    <img src="/img/lomasvendido2.png" alt="img-2" class="image-item">
+                    <h5>Cargador Portatil Inalambrico</h5>
+                </div>
+                <div class="image-container">
+                    <img src="/img/lomasvendido3.avif" alt="img-3" class="image-item">
+                    <h5>Cargador Electrico</h5>
+                </div>
+               <div class="image-container">
+                 <img src="/img/lomasvendido4.jpg" alt="img-4" class="image-item">
+                    <h5>Botella de Metal</h5>
+               </div>
+                <div class="image-container">
+                    <img src="/img/lomasvendido5.jpg" alt="img-5" class="image-item">
+                    <h5>gafas de sol de metal</h5>
+                </div>
+                <div class="image-container">
+                    <img src="/img/lomasvendido6.jpg" alt="img-6" class="image-item">
+                    <h5>Gorra</h5>
+                </div>
+            </div>
+            <button id="next-slide" class="slide-button material-symbols-rounded">chevron_right</button>
+        </div>
+    </div>
+
+    <!--==== Accesorios para carros y cargadores ====-->
+    <section class="seccion-slide">
+        <section>
+            <div class="snap">
+                <section style="background-image: url('/img/HAN\ EXTERIOR\ SPEC.jpg');">
+                    <div class="content">
+                        <h2>Accesorio para tu auto</h2>
+                        <div class="button">
+                            <a href="../paginas/accesorios.html">Comprar ahora</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section>
+            <div class="snap">
+                <section style="background-image: url('/img/cargadorTienda1.2.png');">
+                    <div class="content">
+                        <h2>Cargadores</h2>
+                        <div class="button">
+                            <a href="../paginas/cargadores.html">Comprar ahora</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </section>
+
+    <!--==== ropa ====-->
+    <section class="section-ropa">
+        <div class="ui-card">
+            <img class="img-card" src="/img/ropaHombrePrin.avif" alt="">
+            <div class="description">
+                <h2>Ropa para hombre</h2>
+                <a href="/paginas/ropa_Hombre.html">Comprar ahora</a>
+            </div>
+        </div>
+        <div class="ui-card">
+            <img class="img-card" src="/img/ropaMujerPrin.avif" alt="">
+            <div class="description">
+                <h2>Ropa para mujer</h2>
+                <a href="#">Comprar ahora</a>
+            </div>
+        </div>
+        <div class="ui-card">
+            <img class="img-card" src="/img/ropaNiñosPrin.avif" alt="">
+            <div class="description">
+                <h2>Ropa para niños</h2>
+                <a href="#">Comprar ahora</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- pie de pagina -->
+    <footer>
+        <img class="logo" src="../img/zantraWhite SinFondo.png" alt="">
+        <div class="social-container">
+            <a href="https://www.facebook.com/profile.php?id=100091842377287" target="_blank" class="social-icon facebook"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="https://twitter.com/ZantraOficial" target="_blank" class="social-icon twitter"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="https://www.instagram.com/zantra_oficial/" target="_blank" class="social-icon instagram"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://www.youtube.com/channel/UCYrj55j5DA6fNEWfaiVCfpA" target="_blank" class="social-icon youtube"><ion-icon name="logo-youtube"></ion-icon></a>
+        </div>
+        <ul class="footer-menu">
+            <li class="menu-item">
+                <a href="../paginas/vehiculos.html">Vehiculos</a>
+            </li>
+            <li class="menu-item">
+                <a href="../paginas/cargadores.html">Cargadores</a>
+            </li>
+            <li class="menu-item">
+                <a href="../paginas/servicios.html">Servicios</a>
+            </li>
+            <li class="menu-item">
+                <a href="../paginas/tienda_Principal.html">Tienda</a>
+            </li>
+        </ul>
+        <span class="copyright">&copy; 2023 <b>Zantra Oficial</b> - Todos los Derechos Reservados.</span>
+    </footer>
+    
+    <div class="backdrop"></div>
+    <script src="/js/tienda.js"></script>
+     <!-- iconos del footer -->
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

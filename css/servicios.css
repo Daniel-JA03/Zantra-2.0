@@ -1,0 +1,290 @@
+*{
+    color: white;
+    text-decoration: none;
+}
+
+#baner{
+    /* color: white; */
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1)), url(../img/mantenimiento_1.jpg);
+    /* background-image: url(../img/servicios/mantenimiento_1.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 90vh; */
+    display: flex;
+    
+}
+
+.contenedor-banner{
+    display: flex;
+    align-items: center;
+    margin: auto 18px 5%;
+    width: 100%;
+}
+
+.contenedor2{
+    margin: 50px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.title_page {
+    color: white;
+    font-size: 72px;
+    line-height: 60px;
+    position: static;
+    padding: 30px;
+    z-index: auto;
+}
+
+.contenedor-cuerpo{
+    height: 60vh;
+}
+
+span{
+    font-size: 1.5em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.revision{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+.mantenimiento{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    
+}
+.mantenimiento{
+    display: flex;
+    justify-content: center;
+}
+.mantenimiento p{
+    width: 85%;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+/* mantenimiento */
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.txt h1{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 30px;
+    font-family: 'Inter', sans-serif;
+}
+.txt p{
+    font-size: 25px;
+    font-weight: 250;
+    margin: 30px;
+    font-family: 'Inter', sans-serif;
+}
+.imagen{
+    width: 800px;
+    height: 600px;
+    margin: 35px;
+    justify-content: center;
+}
+
+
+.contenedor-cuerpo{
+    display: flex;
+}
+
+.contenedor-tarjetas{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0px 30px;
+}
+
+/* .img-card{
+    height: 380px;
+} */
+
+.card img {
+    height: 100%;
+}
+
+.txt2 h1{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 30px;
+    font-family: 'Inter', sans-serif;
+}
+.txt2 p{
+    font-size: 25px;
+    font-weight: 250;
+    margin: 30px;
+    font-family: 'Inter', sans-serif;
+}
+.imagen{
+    width: 800px;
+    height: 600px;
+    margin: 35px;
+    justify-content: center;
+}
+.reserva{
+    background-color: #F2F3F4;
+    padding: 120px;
+    padding-top: 50px;
+}
+.reserva span{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+}
+
+.reserva img{
+    padding-top: 25px;
+    width: 70px;
+}
+.reserva  p{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+.subtitle{
+    color: white;
+    font-size: 24px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.card {
+    justify-content: center;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    margin: 18px 30px;
+    border: 2px gray solid;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 400px;
+    /* height: 260px; */
+    /* background-image: url(../imagenes/agendar_cita_1.webp); */
+    /* background-color: white; */
+    cursor: default;
+    transition-property: all;
+    transition-duration: 160ms;
+    transition-timing-function: ease;
+    transition-delay: 100ms;
+
+}
+
+/* .card:hover {
+    transform: scale(1.13, 1.13);
+} */
+
+.servicio {
+    height: 190px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.card-content {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    background-color: rgb(0, 1, 43);
+    color: white;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: auto 20px; */
+}
+
+
+.card_title {
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .logo {
+    height: 160px;
+    margin-bottom: 1rem;
+  }
+  .social-container, .footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  .social-icon {
+    font-size: 2em;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  .social-icon.facebook ion-icon {
+    color: #1877f2; 
+  }
+  
+  .social-icon.twitter ion-icon {
+    color: #1da1f2; 
+  }
+  
+  .social-icon.instagram ion-icon {
+    color: #e4405f; 
+  }
+  
+  .social-icon.youtube ion-icon {
+    color: #c4302b; 
+  }
+  
+  .social-icon:hover {
+    transform: translateY(-10px);
+  }
+  .footer-menu {
+    list-style-type: none;
+    color: #f2f2f2;
+    /* color: rgb(0, 195, 255); */
+    font-size: 18px;
+  }
+  .menu-item {
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+  }
+  .menu-item a {
+    text-decoration: none;
+    color: #f2f2f2;
+  }
+  .menu-item:hover {
+    opacity: 1;
+  }
+  .copyright {
+    color: #f2f2f2;
+    opacity: 0.3;
+    text-align: center;
+  }

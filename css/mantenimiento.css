@@ -1,0 +1,269 @@
+*{
+    color: white;
+    text-decoration: none;
+}
+
+.contenido{
+    padding: 40px 80px;
+}
+
+.contenedor-cuerpo p{
+    font-size: 16px;
+}
+
+section{
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.8)), url(../img/mantenimiento-preventivo.jpg);
+    background-size:cover;
+    background-position: center center;
+    height: 90vh;
+    display: flex;
+}
+
+.contenedor-banner{
+    display: flex;
+    align-items: center;
+    margin: auto 18px 5%;
+    width: 100%;
+}
+
+.contenedor2{
+    margin: 50px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.contenedor-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    padding: 25px;
+}
+
+ul {
+    padding: 8px  25px;
+    justify-content: center;
+    align-content: center;
+}
+
+/* .contenedor-1_1{
+    display: block;
+} */
+
+.title_page {
+    color: white;
+    font-size: 72px;
+    line-height: 60px;
+    position: static;
+    padding: 30px;
+    z-index: auto;
+}
+
+.title-1{
+    padding: 0px 25px;
+}
+span{
+    color: #000;
+    font-size: 1.5em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.revision{
+    color: #000;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    /* max-width: 600px; */
+    padding: 25px;
+}
+.mantenimiento{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    
+}
+/* .mantenimiento{
+    display: flex;
+    justify-content: center;
+} */
+.mantenimiento p{
+    width: 85%;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+/* mantenimiento */
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.txt h1{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 30px;
+    font-family: 'Inter', sans-serif;
+}
+.txt p{
+    font-size: 25px;
+    font-weight: 250;
+    margin: 30px;
+    font-family: 'Inter', sans-serif;
+}
+.item{
+    display: inline-block;
+}
+
+.contenedor img{
+    width: 400px;
+    height: auto;
+}
+
+.contenedor2 img{
+    width: 400px;
+    height: auto;
+}
+
+.contenedor2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.txt2 h1{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 30px;
+    font-family: 'Inter', sans-serif;
+}
+.txt2 p{
+    font-size: 25px;
+    font-weight: 250;
+    margin: 30px;
+    font-family: 'Inter', sans-serif;
+}
+.imagen{
+    width: 800px;
+    height: 600px;
+    margin: 35px;
+    justify-content: center;
+    border-radius: 10px;
+}
+.reserva{
+    background-color: #F2F3F4;
+    padding: 120px;
+    padding-top: 50px;
+}
+.reserva span{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    
+    
+}
+.reserva img{
+    padding-top: 25px;
+    width: 70px;
+}
+.reserva  p{
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+main{
+    box-sizing: border-box;
+    padding: 20px 100px;
+}
+
+.contenido h1, p, h2,.contenido li{
+    color: #000;
+}
+
+.telefono{
+    color: #000;
+}
+
+
+/* Pie de Pagina*/
+
+footer {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .logo {
+    height: 160px;
+    margin-bottom: 1rem;
+  }
+  .social-container, .footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  .social-icon {
+    font-size: 2em;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  .social-icon.facebook ion-icon {
+    color: #1877f2; 
+  }
+  
+  .social-icon.twitter ion-icon {
+    color: #1da1f2; 
+  }
+  
+  .social-icon.instagram ion-icon {
+    color: #e4405f; 
+  }
+  
+  .social-icon.youtube ion-icon {
+    color: #c4302b; 
+  }
+  
+  .social-icon:hover {
+    transform: translateY(-10px);
+  }
+  .footer-menu {
+    list-style-type: none;
+    color: #f2f2f2;
+    /* color: rgb(0, 195, 255); */
+    font-size: 18px;
+  }
+  .menu-item {
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+  }
+  .menu-item a {
+    text-decoration: none;
+    color: #f2f2f2;
+  }
+  .menu-item:hover {
+    opacity: 1;
+  }
+  .copyright {
+    color: #f2f2f2;
+    opacity: 0.3;
+    text-align: center;
+  }
