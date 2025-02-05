@@ -71,6 +71,6 @@ function cambiarIdioma(idioma) {
     if (idioma === 'es') {
         window.location.href = '/paginas/index.html'; 
     } else if (idioma === 'en') {
-        window.location.href = '/paginas/ingles/index_En.html'; 
+        window.location.href = '/paginas/ingles/pa_ingles.html'; 
     }
 }
